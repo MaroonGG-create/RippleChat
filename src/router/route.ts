@@ -12,4 +12,10 @@ export const constantRoutes: RouteConfig[] = [
     name: 'Login',
     meta: { title: 'login' }
   },
+  {
+    path: "/home",
+    component:  () => import("@/views/home/index.vue"),
+    name: "Home",
+    meta: { title: "home" },
+  }
 ]
