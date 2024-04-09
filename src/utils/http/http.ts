@@ -4,7 +4,7 @@ import { BaseRequestConfig, BaseRequestInterceptors } from "./types";
 
 import { ElLoading, ElMessage, ElMessageBox } from "element-plus";
 import { LoadingInstance } from "element-plus/es/components/loading/src/loading";
-import { getToken, logout } from "/@/utils/util";
+import { getToken, logout } from "@/utils/util";
 
 const DEFAULT_LOADING = false;
 let isRelogin = false;
